@@ -1,0 +1,590 @@
+/* You can add global styles to this file, and also import other style files */
+.frame-singup {
+  opacity: 0;
+  position: absolute;
+  margin: 10rem;
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.container .row {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.container .row .fat-singup {
+  height: 100%;
+  float: right;
+  color: #339BFF;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .row .fat-singup form ul li {
+  position: relative !important;
+}
+.container .row .slim-singup {
+  height: 100%;
+  color: #fff;
+  background: #339BFF;
+  float: left;
+  border-radius: 10px 0 0 10px;
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .row .slim-singin {
+  background: #339BFF;
+  color: #fff;
+  height: 100%;
+  float: right;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .row .slim-singin form ul li {
+  position: relative !important;
+}
+.container .row .fat-singin {
+  height: 100%;
+  color: #339BFF;
+  float: left;
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.frame-singin {
+  opacity: 1;
+  position: absolute;
+  margin: 10rem;
+  background: #fff;
+  border-radius: 10px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.frame-singin .f-pass {
+  color: #333;
+  font-weight: 700 !important;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.singup-subtitle{
+  margin: 2rem 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.forms {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  background: #f4f8f7;
+  padding: 10px 20px 10px 40px;
+  margin: 10px 0;
+  border: none;
+}
+
+.btn {
+  padding: 10px !important;
+  width: 50% !important;
+  border-radius: 25px !important;
+  color: #fff !important;
+  background: #339BFF !important;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 8rem;
+}
+
+.btn-signup_animate, .btn-signin_animate {
+  border: solid 1px #fff !important;
+}
+
+.vertical {
+  margin: auto;
+}
+.vertical-left-singup {
+  width: 100%;
+}
+.vertical-right-singup {
+  width: 65%;
+}
+.vertical-left-singin {
+  width: 65%;
+}
+.vertical-right-singin {
+  width: 100%;
+}
+
+.table .table-left {
+  display: table-cell;
+  border-radius: 10px 0 0 10px;
+}
+.table .table-right {
+  display: table-cell;
+}
+
+h1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 8rem;
+  font-weight: 700 !important;
+}
+
+.input-group-addon {
+  position: absolute;
+  margin: 14px 10px;
+  color: #333;
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  left: 0;
+}
+
+.input-group-addon-singin{
+   left: 18.51% !important;
+}
+
+.btn-signup_animate,
+.btn-signin_animate{
+    display: block;
+}
+
+.btn-signup_animate--responsive,
+.btn-signin_animate--responsive{
+  display: none;
+}
+
+
+/*# sourceMappingURL=styles.css.map */
+@media(max-width: 3200px) and  (min-height: 787px) and (max-height: 967px){
+
+  h1{
+    top: 8rem;
+  }
+  .btn{
+    bottom: 8rem;
+  }
+}
+@media(max-width: 3200px) and  (min-height: 560px) and (max-height: 767px){
+  .frame-singup,
+  .frame-singin{
+    margin: 0rem;
+  }
+
+  h1{
+    top: 8rem;
+  }
+  .btn{
+    bottom: 8rem;
+  }
+}
+
+@media(max-width: 3200px) and (min-height: 301px) and (max-height: 559px){
+  h1{
+    top: 1rem;
+  }
+  .btn{
+    bottom: 1rem;
+  }
+}
+
+@media(max-width: 3200px) and (min-height: 50px) and (max-height: 300px){
+  .frame-singup,
+  .frame-singin{
+    display: none;
+  }
+}
+
+@media (min-width: 1279px) and (max-width: 1281px) and (max-height: 800px){
+  .frame-singup,
+  .frame-singin{
+    margin: 8rem;
+  }
+  .slim-singup{
+    opacity: 1 !important;
+  }
+}
+
+@media(max-width: 1248px) and  (min-height: 471px) and (max-height: 477px){
+  .frame-singup,
+  .frame-singin{
+    margin: 0rem;
+  }
+}
+
+@media (min-width: 1023px) and (max-width: 1024px) and (max-height: 1366px){
+  .frame-singup,
+  .frame-singin{
+    margin: 25rem 5rem;
+  }
+}
+
+@media (min-width: 1020px) and (max-width: 1024px) and (max-height: 1024px){
+  .frame-singup,
+  .frame-singin{
+    margin: 5rem;
+  }
+}
+
+@media(max-height: 470px){
+  .frame-singup,
+  .frame-singin{
+    margin: 0 !important;
+  }
+
+}
+
+@media (max-width: 825px) and (max-height: 415px){
+  .frame-singup,
+  .frame-singin{
+    margin: 0;
+  }
+
+  .singup-title,
+  .singin-title{
+    top: 4rem;
+  }
+
+  .btn-signup,
+  .btn-signin{
+    bottom: 3rem;
+  }
+}
+
+@media (max-width: 823px) and (max-height: 411px){
+  .left-singup-title,
+  .right-singup-title{
+    top: 2rem;
+  }
+}
+
+@media (max-width: 812px) and (max-height: 375px){
+  .left-singup-title,
+  .right-singup-title{
+    top: 2rem;
+  }
+}
+
+@media (min-width: 799px) and (max-width: 800px) and (max-height: 1280px){
+  .frame-singup,
+  .frame-singin{
+    margin: 22rem 2rem;
+  }
+  .slim-singup,
+  s.slim-singin{
+    opacity: 1 !important;
+  }
+}
+
+
+@media (min-width: 767px) and (max-width: 768px) and (max-height: 1024px){
+  .frame-singup,
+  .frame-singin{
+    margin: 14rem 2rem;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 950px) and (max-height: 798px){
+  .frame-singup,
+  .frame-singin{
+    margin: 5rem;
+  }
+}
+@media(max-width: 767px) and (max-height: 670px){
+  .frame-singup,
+  .frame-singin{
+    margin: 0 !important;
+  }
+   .singup-title,
+  .singin-title,
+  .vertical-left-singin > .singin-title,
+  .vertical-right-singup >  .right-singup-title
+  {
+    top: 4rem;
+  }
+  .btn-signin,
+  .vertical-left-singin > .singin-form > .btn-signin{
+    bottom: 6rem !important;
+  }
+
+  .btn-signup,
+   .vertical-left-singin > .singin-form > .btn-signup{
+    bottom: 2rem !important;
+  }
+}
+@media(max-width: 767px) and (min-height: 799px) and (max-height: 1340px){
+  .frame-singup,
+  .frame-singin{
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 767px){
+  .btn-signup_animate,
+  .btn-signin_animate{
+    display: none;
+  }
+
+  #btn-signin-responsive,
+  #btn-signup-responsive_right,
+  .btn-signup_animate--responsive,
+  .btn-signin_animate--responsive{
+    display: block;
+    bottom: 12rem;
+  }
+
+  #btn-signup-responsive,
+  .btn-signin_animate--responsive{
+    color: #339BFF !important;
+    background: #fff !important;
+    border: solid 1px #339BFF !important;
+  }
+
+  #btn-signup-responsive,
+  #btn-signin-responsive_right,
+  .btn-signup_animate--responsive{
+    bottom: 8rem;
+    border: solid 1px #fff;
+  }
+
+  .slim-singin{
+    border-radius: 0px !important;
+  }
+
+}
+
+@media (max-width: 740px) and (max-height: 415px){
+  .singup-title,
+  .singin-title{
+    top: 4rem;
+  }
+  .btn-signin_animate--responsive{
+    bottom: 7rem !important;
+  }
+  .btn-signup_animate--responsive{
+    bottom: 3rem !important;
+  }
+}
+
+@media (max-width: 736px) and (max-height: 415px){
+  #btn-signin-responsive_right,  
+  #btn-signup-responsive_right,
+  #btn-signin-responsive, 
+  #btn-signup-responsive{
+    display: block;
+    bottom: 2rem !important;
+    width: 30% !important;
+    margin: 0;
+  }
+  #btn-signup-responsive_right,
+  #btn-signin-responsive {
+      left: 8rem;
+  }
+  #btn-signin-responsive_right,
+  #btn-signup-responsive{
+    left: 15rem;
+    right: 0;
+    margin: auto;
+  }
+
+  .singin-title,
+  .right-singup-title{
+    top: 2rem;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 670px) and (max-height: 415px){
+  .singup-title,
+  .singin-title{
+    top: 4rem;
+  }
+  .btn-signin_animate--responsive{
+    bottom: 6rem !important;
+  }
+  .btn-signup_animate--responsive{
+    bottom: 2rem !important;
+  }
+}
+
+@media(min-width: 668px) and (max-width: 1040px) and (min-height: 301px) and (max-height: 308px){
+  slim-singin{
+    opacity: 1;
+  }
+}
+
+@media(max-width: 667px) and (max-height: 536px){
+  .singup-title,
+  .singin-title,
+  .vertical-left-singin > .singin-title,
+  .vertical-right-singup >  .right-singup-title
+  {
+    top: 4rem;
+  }
+  .btn-signin,
+  .vertical-left-singin > .singin-form > .btn-signin{
+    bottom: 5rem !important;
+  }
+
+  .btn-signup,
+   .vertical-left-singin > .singin-form > .btn-signup{
+    bottom: 1rem !important;
+  }
+
+}
+
+
+@media (min-width: 635px) and (max-width: 640px) and (max-height: 360px){
+  .singup-title,
+  .singin-title,
+  .right-singup-title{
+    top: 1rem !important;
+  }
+  #btn-signin-responsive_right,  
+  #btn-signup-responsive_right,
+  #btn-signin-responsive, 
+  #btn-signup-responsive{
+    display: block;
+    bottom: 2rem !important;
+    width: 30% !important;
+    margin: 0;
+  }
+
+  #btn-signup-responsive_right,
+  #btn-signin-responsive {
+      left: 7rem;
+  }
+  #btn-signin-responsive_right,
+  #btn-signup-responsive{
+    left: 12rem;
+    right: 0;
+    margin: auto;
+  }
+
+}
+
+@media (min-width: 567px) and (max-width: 569px) and (max-height: 325px){
+  .singup-title,
+  .singin-title{
+    top: 2rem;
+  }
+  .btn-signin_animate--responsive{
+    bottom: 4rem !important;
+  }
+  .btn-signup_animate--responsive{
+    bottom: 1rem !important;
+  }
+  #btn-signup-responsive_right,
+  #btn-signin-responsive{
+    left: 6rem;
+  }
+  #btn-signin-responsive_right,
+  #btn-signup-responsive{
+    left: 13rem
+  }
+}
+
+@media (min-width: 530px) and (max-width: 535px) and (max-height: 325px){
+  .singup-title,
+  .singin-title{
+    top: 2rem;
+  }
+   #btn-signin-responsive_right,  
+  #btn-signup-responsive_right,
+  #btn-signin-responsive, 
+  #btn-signup-responsive{
+    display: block;
+    bottom: 2rem !important;
+    width: 30% !important;
+    margin: 0;
+  }
+  #btn-signup-responsive_right,
+  #btn-signin-responsive {
+      left: 5rem;
+  }
+  #btn-signin-responsive_right,
+  #btn-signup-responsive{
+    left: 12rem;
+    right: 0;
+    margin: auto;
+  }
+  .btn-signin_animate--responsive{
+    bottom: 4rem !important;
+  }
+  .btn-signup_animate--responsive{
+    bottom: 1rem !important;
+  }
+  .right-singup-title{
+    top: 2rem;
+  }
+
+}
+@media (min-width: 513px) and (max-width: 767px) and (max-height: 798px){
+  .frame-singup,
+  .frame-singin{
+    margin: 0;
+  }
+}
+
+@media (max-width: 512px){
+  .frame-singup,
+  .frame-singin{
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 360px) and (max-height: 640px){
+  .btn-signin{
+    bottom: 8rem !important;
+  }
+}
+
+@media (min-width: 312px) and (max-width: 360px) and (max-height: 640px){
+  .singup-title,
+  .singin-title,
+  .right-singup-title{
+    top: 4rem !important;
+  }
+  #btn-signin-responsive,
+  #btn-signup-responsive_right,
+  .btn-signup_animate--responsive,
+  .btn-signin_animate--responsive{
+     bottom: 8rem;
+  }
+  #btn-signup-responsive, 
+  #btn-signin-responsive_right, 
+  .btn-signup_animate--responsive{
+      bottom: 4rem !important;
+  }
+  .slim-singup{
+    opacity: 0 !important;
+  }
+}
+

@@ -1,0 +1,346 @@
+header {
+    background-color: #339BFF;
+}
+
+/*--------------------------
+    2. TOP AREA
+---------------------------*/
+
+.top-area {
+    height: 100%;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.welcome-text-area {
+    height: 100%;
+    overflow: hidden;
+    padding-top: 100px;
+    width: 100%;
+}
+
+.top-area .area-bg {
+    background: rgba(0, 0, 0, 0) url("/../../assets/images/promo/promo-bg.jpg") no-repeat scroll center center / cover;
+}
+
+.top-area .area-bg::after {
+    background: rgba(0, 0, 0, 0) url("/../../assets/images/home/home-wave.svg") no-repeat scroll center center / cover;
+    bottom: -59px;
+    height: 166px;
+    top: auto;
+    z-index: 9;
+}
+
+/*----------------------
+    TOP BAR
+-----------------------*/
+
+.search-collapse-area {
+    background: #1193d4 none repeat scroll 0 0;
+    border-top: 1px solid;
+}
+
+.search-form {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.search-form input,
+.search-form button {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    height: 50px;
+    left: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+    width: calc(100% - 87px);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.search-form button {
+    font-size: 25px;
+    left: auto;
+    right: 10px;
+    width: 50px;
+}
+
+.search-form button:hover {
+    background: #fff none repeat scroll 0 0;
+    color: #1193d4;
+}
+
+.search-form::before {
+    border: 2px solid #fff;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.sign-up {
+    border: 2px solid;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    padding: 7px 30px;
+}
+
+.search-and-signup-button {
+    padding: 34px 0 34px 34px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.search-and-signup-button button {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    font-size: 20px;
+    line-height: 1;
+    position: relative;
+    top: 3px;
+}
+
+.is-sticky .search-and-signup-button {
+    padding: 16px 34px;
+    padding-right: 0;
+}
+
+
+
+/*---------------------------------
+    2.1 MAINMENU AREA
+-----------------------------------*/
+
+.header-top-area {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.mainmenu-area {
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    z-index: 9999;
+}
+
+.navbar-header {
+    margin-top: 14px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar {
+    border-bottom: 0 none;
+    border-top: 0 none;
+    margin-bottom: 0;
+    position: absolute;
+    width: 100%;
+    background: #339BFF;
+}
+
+.navbar-brand > img {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.is-sticky .navbar-brand > img {
+    max-width: 80%;
+}
+
+/*ul#nav {
+    float: right;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}*/
+
+ul#nav {
+    float: none;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.stellarnav.dark {
+    background: rgba(0, 0, 0, 0);
+}
+
+.navbar-header {
+    position: relative;
+    z-index: 9999;
+}
+
+.nav-link {
+    color: white;
+    padding: 0.5rem 1rem;
+}
+.nav-link:hover{
+    background: #bbd6f1;
+    border-radius: 5px;
+}
+
+.sign-up {
+    color: white;
+}
+ul#nav li a {
+    background: #FFF none repeat scroll 0 0;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 40px 5px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+ul#nav li a:hover,
+ul#nav li.active a {
+    text-decoration: line-through;
+}
+
+.is-sticky ul#nav li a {
+    padding: 20px 5px;
+}
+
+
+.is-sticky .navbar-header {
+    margin-top: -2px;
+}
+
+.is-sticky .mainmenu-area {
+    background: #1193d4;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+    z-index: 99999;
+}
+
+.menu-toggle.full {
+    border: 1px solid;
+    height: 40px;
+    letter-spacing: 2px;
+    padding-top: 8px;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    top: 20px;
+    width: 110px;
+    z-index: 9999;
+}
+
+.is-sticky .menu-toggle.full {
+    top: 8px;
+}
+
+ul#nav li ul a,
+.is-sticky ul#nav li ul a {
+    border-bottom: 1px solid #1a1a1a;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.home-three .search-and-signup-button {
+    padding: 38px 0 34px 34px;
+}
+
+.home-three .is-sticky .search-and-signup-button {
+    padding: 20px 0 16px 34px;
+}
+
+/*---------------------------------
+    2.2 MAINMENU USER
+-----------------------------------*/
+
+
+.users-menu{
+    font-size: 1.5rem;
+}
+.nav-user{
+    position: absolute;
+    background: #339bff;
+    border-radius: 5px;
+    padding: 1rem;
+    list-style: none;
+    display: none;
+    z-index: 1;
+    left: -8rem;
+}
+
+.user-right{
+    position: absolute;
+    right: 5rem;
+}
+
+/*---------------------------------
+    2.3 MAINMENU ICON RESPONSIVE
+-----------------------------------*/
+
+.menu-icon{
+    display: none;
+}
+
+/*---------------------------------
+    3 RESPONSIVE
+-----------------------------------*/
+
+@media  (max-width: 825px) and (max-height: 1340px){
+    .menu-icon{
+        display: block;
+        position: absolute;
+        right: 1rem;
+        top: -1rem;
+        z-index: 10000;
+    }
+    .fa-bars{
+        color: #fff;
+        position: absolute;
+        top: -0.5rem;
+        right: 0.5rem;
+    }
+    .navbar{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        position: absolute;
+        z-index: 10 !important;
+        width: 100%;
+        height: auto;
+        top: 2rem;
+    }
+    .nav{
+        flex-direction: column;
+        padding: 0 0 0 1rem;
+        display: none;
+    }
+    
+    .nav-link:hover{
+        background: #b9e1ff !important;
+    }
+    .user-right {
+        position: relative;
+        right: 0;
+    }
+    .nav-user {
+        background: #dbdfe2;
+        left: 3rem !important;
+        z-index: 100;
+    }
+    .navbar-header{
+        position: fixed;
+        top: -1rem;
+        width: 100%;
+        background: #339bff;
+        padding: 0 0 0 1rem;
+    }
+
+}
